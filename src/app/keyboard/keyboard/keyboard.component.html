@@ -1,0 +1,5 @@
+<ul>
+  <li *ngFor="let digit of digits" class="lista-linda">
+    <meow-key [digit]="digit" (keyClick)="onKeyClick(digit)"></meow-key>
+  </li>
+</ul>
